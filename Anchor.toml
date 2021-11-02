@@ -1,0 +1,13 @@
+[programs.localnet]
+# whitelist = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+whitelist = "G9B3QBo3BJAbn37XmaBNN4ybjLXuiUSRxwgjGdyau85J"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/cilantro/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
